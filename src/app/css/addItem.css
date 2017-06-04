@@ -1,0 +1,27 @@
+.add-todo {
+  padding-bottom: 15px;
+}
+
+.todo-text-field {
+  display: block;
+  width: calc(100% - 30px);
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 15px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.todo-submit {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 0;
+  border-radius: 10px;
+  width: 200px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #f9cf41;
+  color: #f9cf41;
+  font-weight: 600;
+  /*text-transform: uppercase;*/
+}

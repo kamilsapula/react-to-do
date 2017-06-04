@@ -3,6 +3,7 @@ const ReactDOM = require("react-dom");
 require('./css/index.css')
 
 const TodoItem = require('./todoItem');
+const AddItem = require('./addItem')
 
 
 class TodoComponent extends React.Component {
@@ -11,6 +12,7 @@ class TodoComponent extends React.Component {
     super(props);
     this.state = {todos: ["wash up", "eat something", "walk with dog"]};
     this.onDelete = this.onDelete.bind(this);
+    this.onAdd = this.onAdd.bind(this);
   }
 
   render() {
@@ -28,8 +30,17 @@ class TodoComponent extends React.Component {
         <ul>
           {todos}
         </ul>
+        <AddItem onAdd={this.onAdd} />
       </div>
     )
+  }
+
+  onAdd (item) {
+    let updatedTodos = this.state.todos;
+    updatedTodos = [...updatedTodos, item];
+    this.setState({
+      todos: updatedTodos
+    })
   }
 
   onDelete (item) {

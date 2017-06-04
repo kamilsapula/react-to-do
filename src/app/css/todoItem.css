@@ -8,10 +8,6 @@
   color: #f9cf41;
 }
 
-.todo-list ul > li:last-child .todo-item {
-  border: none;
-}
-
 .item-name {
   flex-basis: 0;
   flex-grow: 9;
