@@ -24,7 +24,7 @@ class TodoComponent extends React.Component {
 
     return (
       <div id="todo-list" className="todo-list">
-        <p>The busiest people have the most leisure...</p>
+        <p>What do you need to do?</p>
         <ul>
           {todos}
         </ul>

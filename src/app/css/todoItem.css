@@ -1,14 +1,15 @@
 .todo-item {
   padding: 15px;
-  border-bottom: 1px solid #0969A2;
+  border-bottom: 1px solid #f9cf41;
   display: flex;
 }
 
 .todo-item:hover {
-  /*background: #eee;*/
-  background-color: #ECF2FE;
-  border-left: 5px solid #0969A2;
-  padding: 15px 15px 15px 10px;
+  color: #f9cf41;
+}
+
+.todo-list ul > li:last-child .todo-item {
+  border: none;
 }
 
 .item-name {

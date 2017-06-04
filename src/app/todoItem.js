@@ -5,7 +5,7 @@ class TodoItem extends React.Component {
   constructor(props) {
     super(props);
     this.handleDelete = this.handleDelete.bind(this);
-  }
+}
 
   render() {
 
@@ -20,7 +20,7 @@ class TodoItem extends React.Component {
   }
 
   handleDelete() {
-    this.props.onDelete(this.props.item.value);
+    this.props.onDelete(this.props.item);
   }
 };
 

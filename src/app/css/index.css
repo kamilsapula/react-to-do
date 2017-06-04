@@ -5,14 +5,13 @@ body {
 }
 
 .todo-wrapper {
-  width: 600px;
+  width: 450px;
   margin: 0 auto;
-  background: #fff;
-  border-top: 5px solid #0969A2;
-  padding-bottom: 10px;
-  border-radius: 2px;
+  background: #444;
+  border-top: 5px solid #f9cf41;
+  border-radius: 10px;
   box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
-  color: #333;
+  color: #FFF;
 }
 
 .todo-wrapper p {
@@ -20,8 +19,8 @@ body {
   font-style: italic;
   padding: 25px 10px;
   margin: 0;
-  color: #0969A2;
-  border-bottom: 1px solid #0969A2;
+  color: #f9cf41;
+  border-bottom: 1px solid #f9cf41;
   background-color: rgba(0, 0, 0, 0.01);
 }
 
